@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/basics.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="rpm.html">home</a></li>
+            <li><a href="2nd page.html">2nd page</a> </li>
+        </ul>
+    </nav>
+
+    <p><b><i> Basic Form Lesson : </i></b></p>
+    <form>
+        <label>Name:
+            <input type="text" name="Name">
+        </label>
+        <p></p>
+        <label for="fname">Father Name: </label>
+        <input type="text" id="fname" name="Fname">
+        <input type="submit" value="Save">
+    </form>
+
+    <p> <b> <i> Different Types of "input" : </i></b> </p>
+    <form>
+        <label for="mail"> Enter ur mail id :</label>
+        <input id="mail" type="email" name="mail">
+        <label for="telnum">Telephone Number :</label>
+        <input id="telnum" type="tel" name="telnumber">
+        <label for="abturslf">About yourself :</label>
+        <textarea id="abturslf" name="abouturself"></textarea>
+        <input type="submit" value="Save !">
+    </form>
+
+    <p><b><i>Select (Dropbox) :</i></b></p>
+    <label for="favcolor">What is your favorite color ?</label>
+    <select id="favcolor" name="favcolor">
+        <option value="colorred">Red</option>
+        <option valur="coloryellow">Yellow</option>
+        <option value="colorblue">Blue</option>
+        <option value="colororange">Orange</option>
+    </select>
+
+    <p><B><i>Radio Input :</i></B></p>
+    <fieldset>
+        <legend>What is your favorite food ?</legend>
+        <input type="radio" id="o1" name="favfood" value="chicken">
+        <label for="o1">Chicken</label>
+        <input type="radio" id="o2" name="favfood" value="pizza">
+        <label for="o2">Pizza</label>
+        <input type="radio" id="o3" name="favfood" value="burger">
+        <label for="o3">Burger</label>
+    </fieldset>
+
+    <p><b><i>Checkbox :</i></b></p>
+    <fildset>
+        <legend>What pet do you have ?</legend>
+        <input id="cat" type="checkbox" name="pets" value="cat">
+        <label for="cat">Cat</label>
+        <input type="checkbox" id="dog" name="pets" value="dog">
+        <label for="dog">Dog</label>
+        <input type="checkbox" id="snake" name="pets" value="snake">
+        <label for="snake">Snake</label>
+        <input type="checkbox" id="fish" name="pets" value="fish">
+        <label for="fish">Fish</label>
+    </fildset>
+
+    <p><b><i>Table Example : </i></b></p>
+    <table>
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Aisle </th>
+                <th> Price </th>
+                <th> Quantity </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Bread </td>
+                <td> A2 </td>
+                <td> $3.00 </td>
+                <td> 1 </td>
+            </tr>
+
+            <tr>
+                <td> Milk </td>
+                <td> B1 </td>
+                <td> $2.50 </td>
+                <td> 2 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td> Total </td>
+                <td> N/A </td>
+                <td> $5.50 </td>
+                <td> 3 </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+
+</html>
